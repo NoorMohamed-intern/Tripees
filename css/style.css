@@ -1,7 +1,8 @@
 * {
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: hidden; }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.109)), url(/img/pexels-gapeppy-2373201.jpg);
