@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome Not nessary because we have ion icons -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/img/fav/favicon.ico" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap 4 CDN-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Tripees</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <!-- START HERE -->
+
+    <header>
+      <nav class="navbar navbar-expand-sm sticky" id="main-nav">
+        <div class="container py-2">
+          <a href="index.html" class="navbar-brand"
+            ><img
+              src="/img/tripees-only-logo.png"
+              alt="logo"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#qwerty"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="qwerty" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+              <li class="nav-item pr-4">
+                <a href="#home" class="nav-link texty">HOME</a>
+              </li>
+              <li class="nav-item pr-4 pl-1">
+                <a href="#explore" class="nav-link texty">EXPLORE</a>
+              </li>
+              <li class="nav-item">
+                <a href="#book-now" class="nav-link texty">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="hero-text-box">
+          <h1>HAPPINESS IS TRAVELING.</h1>
+          <button
+            class="btn btn-warning mt-3"
+            data-toggle="modal"
+            data-target="#qwerty3"
+          >
+            <a href="#">Book now</a>
+          </button>
+          <button class="btn btn-outline-warning mt-3 ml-3">
+            <a href="#">Explore</a>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="explore">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="pt-5">Explore the Globe with Tripees.</h3>
+            <p class="pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              exercitationem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-12">
+            <h3 class="mb-3">Carousel cards title</h3>
+          </div> -->
+
+          <div class="col-md-12 mt-4">
+            <div
+              id="carouselIndicators2"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/mumbai Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Mumbai</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                          </div>
+
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/kolkata Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Kolkata</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <!-- <i class="fas fa-star"></i> -->
+                            <i class="fas fa-star-half"></i>
+                          </div>
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/kochin Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Kochin</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <!-- <i class="fas fa-star-half"></i> -->
+                          </div>
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/jaipur Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Jaipur</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <!-- <i class="fas fa-star-half"></i> -->
+                          </div>
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/chennai Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Chennai</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <!-- <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i> -->
+                          </div>
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <div class="card">
+                        <img
+                          class="card-img-top"
+                          src="/img/delhi Cropped.jpg"
+                          alt="Card-image"
+                        />
+                        <div class="card-body">
+                          <h5 class="pr-5 pb-1">Delhi</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                          </div>
+                          <p>
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <button
+                            class="btn btn-info"
+                            data-toggle="modal"
+                            data-target="#qwerty3"
+                          >
+                            <a href="#">Book Now</a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 text-right indi">
+            <a
+              class="btn mb-3 mr-1"
+              href="#carouselIndicators2"
+              role="button"
+              data-slide="prev"
+            >
+              <i class="fa fa-arrow-left"></i>
+            </a>
+            <a
+              class="btn mb-3"
+              href="#carouselIndicators2"
+              role="button"
+              data-slide="next"
+            >
+              <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book-now" class="py-5 bg-dark smoothScroll">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-white">Frequently asked questions</h3>
+          </div>
+        </div>
+        <div class="row pt-3">
+          <div class="col-md-6">
+            <!-- <button data-toggle="collapse" data-target="#qwerty1">OK</button> -->
+            <!-- <div class="collapse mb-5" id="qwerty1"> -->
+            <div id="accordian">
+              <div class="card">
+                <div class="card-header bg-info text-white">
+                  <h5>
+                    <a
+                      href="#ggwp"
+                      data-parent="#accordian"
+                      data-toggle="collapse"
+                      >How does tripees find such cheap airfare? &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; -</a
+                    >
+                  </h5>
+                </div>
+                <div id="ggwp" class="collapse show">
+                  <div class="card-body bg-info text-white">
+                    tripees searches across hundreds of airlines and travel
+                    sites, from major booking sites to individual company sites,
+                    to give you as many cheap airfare options as possible. When
+                    you conduct a single search on momondo, you can find and
+                    compare cheap airline tickets like you’ve done hundreds of
+                    searches at once.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="accordian1" class="pt-2">
+              <div class="card">
+                <div class="card-header bg-info text-white">
+                  <h5>
+                    <a
+                      href="#ggwp1"
+                      data-parent="#accordian1"
+                      data-toggle="collapse"
+                      >How can Mix & Match save me money? &nbsp; &nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</a
+                    >
+                  </h5>
+                </div>
+                <div id="ggwp1" class="collapse">
+                  <div class="card-body bg-info text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Possimus cupiditate consectetur officia, ex eligendi
+                    voluptatibus. Minus aliquid dolor natus distinctio.Sometimes
+                    you can save money by combining flight tickets from
+                    different suppliers, and we call that Mix & Match. This
+                    means you can book your outbound flight with one supplier,
+                    and your return flight with another
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- </div> -->
+          </div>
+          <div class="col-md-6">
+            <div id="accordian3">
+              <div class="card">
+                <div class="card-header bg-info text-white">
+                  <h5>
+                    <a
+                      href="#ggwp3"
+                      data-parent="#accordian3"
+                      data-toggle="collapse"
+                      >How do I find the best price on plane tickets? &nbsp;
+                      &nbsp; -
+                    </a>
+                  </h5>
+                </div>
+                <div id="ggwp3" class="collapse">
+                  <div class="card-body bg-info text-white">
+                    Choose your destination and preferred travel dates, and
+                    we’ll provide you with an overview of the cheapest,
+                    quickest, and best flights so you can compare prices and
+                    book flights with confidence.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="accordian4" class="pt-2">
+              <div class="card">
+                <div class="card-header bg-info text-white">
+                  <h5>
+                    <a
+                      href="#ggwp4"
+                      data-parent="#accordian4"
+                      data-toggle="collapse"
+                      >How do I make sure I don’t miss a flight deal?
+                      &nbsp;&nbsp;&nbsp; &nbsp;-</a
+                    >
+                  </h5>
+                </div>
+                <div id="ggwp4" class="collapse">
+                  <div class="card-body bg-info text-white">
+                    Sign up for Price Alerts on your favourite flight routes and
+                    automatically get live price updates, so you can book
+                    flights when the price is right. You can do so next to your
+                    flight search results or in the profile menu. If you're on
+                    our app, you will find Price Alerts in the navigation menu.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer class="bg-dark pb-3">
+        <div class="container">
+          <p class="lead text-center text-white">
+            Copyright © 2021 by Tripees.All rights received.
+          </p>
+        </div>
+      </footer>
+    </section>
+
+    <div
+      class="modal fade"
+      id="qwerty3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Congratulations</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Your ticket has been successfully booked!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--DONT TOUCH THE CODE BELOW-->
+    <!-- Jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <!-- JQuery navbar toggler -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Official Bootstrap 4 script tag -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!--Ionicons-->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!-- Custom js -->
+    <script>
+      $("#main-nav a").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+    </script>
+  </body>
+</html>

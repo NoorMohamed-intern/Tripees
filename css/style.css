@@ -1,0 +1,109 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box; }
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.109)), url(/img/pexels-gapeppy-2373201.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed; }
+  header .navbar .navbar-brand img {
+    width: auto;
+    height: 80px;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem; }
+  header .navbar .texty {
+    color: white !important;
+    font-size: 90%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s; }
+    header .navbar .texty:hover {
+      border-bottom: 2px solid #ffc107e5; }
+  header .hero-text-box {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    color: rgba(255, 255, 255, 0.815); }
+    header .hero-text-box h1 {
+      font-weight: 200;
+      font-size: 260%;
+      letter-spacing: 5px; }
+    header .hero-text-box button,
+    header .hero-text-box a {
+      color: rgba(255, 255, 255, 0.794);
+      padding: 10px 20px;
+      border-radius: 200px;
+      text-decoration: none; }
+    header .hero-text-box button:hover {
+      color: white;
+      background-color: #ffc107e5; }
+
+#explore {
+  background-color: rgba(231, 231, 231, 0.924); }
+  #explore h3 {
+    text-align: center;
+    font-weight: 250;
+    font-size: 200%;
+    letter-spacing: 1px; }
+  #explore h3:after {
+    display: block;
+    height: 2px;
+    background-color: #17a2b8;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 28px; }
+  #explore p:last-child {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  #explore .card .card-body {
+    padding: 1rem; }
+    #explore .card .card-body h5 {
+      display: inline-block; }
+    #explore .card .card-body .star {
+      padding-bottom: 13px;
+      display: inline-block;
+      color: #ffc107e5;
+      border-color: black; }
+      #explore .card .card-body .star i {
+        font-size: 90%; }
+    #explore .card .card-body p {
+      font-size: 95%;
+      font-weight: 300; }
+    #explore .card .card-body button,
+    #explore .card .card-body a {
+      color: rgba(255, 255, 255, 0.794);
+      padding: 10px 20px;
+      border-radius: 200px;
+      text-decoration: none; }
+  #explore .indi a {
+    color: white;
+    background-color: #9c9c9c;
+    justify-content: right;
+    padding: 10px 20px;
+    border-radius: 200px;
+    text-decoration: none; }
+
+#book-now h3 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 230%; }
+#book-now h3:after {
+  display: block;
+  height: 2px;
+  background-color: #17a2b8;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 28px; }
+#book-now .card {
+  background-color: #343a40 !important; }
+  #book-now .card a {
+    text-decoration: none;
+    color: white; }
