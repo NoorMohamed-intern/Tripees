@@ -59,7 +59,7 @@
         </div>
       </nav>
 
-      <div class="container">
+      <div class="container" id="scroll">
         <div class="hero-text-box">
           <h1>HAPPINESS IS TRAVELING.</h1>
           <button
@@ -70,7 +70,7 @@
             <a href="#">Book now</a>
           </button>
           <button class="btn btn-outline-warning mt-3 ml-3">
-            <a href="#">Explore</a>
+            <a href="#explore">Explore</a>
           </button>
         </div>
       </div>
@@ -509,6 +509,22 @@
     <!-- Custom js -->
     <script>
       $("#main-nav a").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+      $("#scroll a").on("click", function (e) {
         if (this.hash !== "") {
           e.preventDefault();
           const hash = this.hash;
