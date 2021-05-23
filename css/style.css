@@ -108,3 +108,6 @@ header {
   #book-now .card a {
     text-decoration: none;
     color: white; }
+
+footer {
+  font-size: 100%; }
